@@ -7,13 +7,14 @@ while(true){
     console.clear()
     console.log(`
         --- CALCULADORA ---
-        1. Sumar
-        2. Restar
-        3. Multiplicar
-        4. Dividir
-        5. Resto
-        6. Potencia
-        0. Salir
+        |1. Sumar         |
+        |2. Restar        |
+        |3. Multiplicar   |
+        |4. Dividir       |
+        |5. Resto         |
+        |6. Potencia      |
+        |0. SALIR         |
+        -------------------
         `)
     const opcion = await input("Seleccione una operacion: ")
 
